@@ -3,10 +3,17 @@
     public class Domain
     {
         private readonly dynamic _domain;
+        private readonly dynamic _accounts;
 
         public Domain(dynamic oDomain)
         {
             _domain = oDomain;
+            _accounts = new AccountCollection(_domain.Accounts);
+        }
+
+        public AccountCollection Accounts
+        {
+            get { return _accounts; }
         }
 
         public void Delete()

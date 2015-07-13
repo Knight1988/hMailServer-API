@@ -7,16 +7,13 @@ namespace hMailServerAPI
         private readonly dynamic _app;
         private readonly DomainCollection _domains;
 
-        public ServerApplication()
+        public ServerApplication(string username, string password)
         {
             _app = Activator.CreateInstance(Type.GetTypeFromProgID("hMailServer.Application"));
 
-            _domains = new DomainCollection(_app.Domains);
-        }
-
-        public void Authenticate(string username, string password)
-        {
             _app.Authenticate(username, password);
+
+            _domains = new DomainCollection(_app.Domains);
         }
 
         public DomainCollection Domains

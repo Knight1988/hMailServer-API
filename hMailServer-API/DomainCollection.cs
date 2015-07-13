@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace hMailServerAPI
 {
@@ -34,8 +35,15 @@ namespace hMailServerAPI
 
         public Domain GetItemByName(string name)
         {
-            dynamic oDomain = _domains.ItemByName(name);
-            return new Domain(oDomain);
+            try
+            {
+                dynamic oDomain = _domains.ItemByName(name);
+                return new Domain(oDomain);
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
 
         public Domain Add()
