@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Domain.cs" />
+    <Compile Include="DomainCollection.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="MessageCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

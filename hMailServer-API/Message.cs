@@ -84,13 +84,10 @@ namespace hMailServerAPI
         /// </summary>
         public void Save()
         {
-            var log = Logger.CreateLogger();
-            log.Debug("Add recipient");
             foreach (Recipient recipient in Recipients)
             {
                 _message.AddRecipient(recipient.Name, recipient.Address);
             }
-            log.Debug("Send mail");
             _message.Save();
         }
 

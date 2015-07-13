@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hMailServer-API", "hMailServer-API\hMailServer-API.csproj", "{0D527D86-580F-4469-B3F3-221638A5EF71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hMailServerTests", "hMailServerTests\hMailServerTests.csproj", "{0E03AAF2-8E9C-42B3-BD04-D635551B17CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0D527D86-580F-4469-B3F3-221638A5EF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D527D86-580F-4469-B3F3-221638A5EF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D527D86-580F-4469-B3F3-221638A5EF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E03AAF2-8E9C-42B3-BD04-D635551B17CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E03AAF2-8E9C-42B3-BD04-D635551B17CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E03AAF2-8E9C-42B3-BD04-D635551B17CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E03AAF2-8E9C-42B3-BD04-D635551B17CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
