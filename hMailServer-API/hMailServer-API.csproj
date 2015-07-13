@@ -7,7 +7,7 @@
     <ProjectGuid>{0D527D86-580F-4469-B3F3-221638A5EF71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hMailServer_API</RootNamespace>
+    <RootNamespace>hMailServerAPI</RootNamespace>
     <AssemblyName>hMailServer-API</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

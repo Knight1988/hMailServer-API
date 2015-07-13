@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HMailServer.COM
+namespace hMailServerAPI
 {
     public class ServerApplication
     {

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace HMailServer.COM
+namespace hMailServerAPI
 {
     public class MessageCollection : List<Message>
     {

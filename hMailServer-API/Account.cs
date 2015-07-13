@@ -1,4 +1,4 @@
-﻿namespace HMailServer.COM
+﻿namespace hMailServerAPI
 {
     public class Account
     {
